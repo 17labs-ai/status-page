@@ -6,7 +6,7 @@ sites:
   - name: Google
     url: https://www.google.com
   - name: Dealya Landing
-    url: https://dealya.com
+    url: https://deal-ya.com
   - name: Flashcards Landing
     url: https://flashcards.17labs.ai
   - name: Flashcards API
