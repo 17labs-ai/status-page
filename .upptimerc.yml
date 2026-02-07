@@ -1,32 +1,51 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Upptime configuration
+# Docs: https://upptime.js.org/docs/configuration
 
+# Repository settings
+owner: 17labs-ai          # Your GitHub org/user
+repo: status              # Your Upptime repository name
+
+# Monitoring targets
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Dealya Landing
+  - name: Dealya — Web
     url: https://deal-ya.com
-  - name: Flashcards Landing
-    url: https://flashcards.17labs.ai
-  - name: Flashcards API
-    url: https://mcp-flashcards.17labs.ai/health
+    maxResponseTime: 8000
 
+  - name: Flashcards — Web
+    url: https://flashcards.17labs.ai
+    maxResponseTime: 8000
+
+  - name: Flashcards — API (Health)
+    url: https://mcp-flashcards.17labs.ai/health
+    maxResponseTime: 8000
+
+# Status website
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.17labs.ai
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: 17labs.ai Status
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # baseUrl: /status   # Use instead of cname if not on a custom domain
+
+  name: 17labs Service Status
+
+  # Logo not available yet
+  # logoUrl: https://17labs.ai/logo.svg
+  # favicon: https://17labs.ai/favicon.ico
+
+  introTitle: "Service Status"
+  introMessage: >
+    This page provides real-time availability and incident history for 17labs services.
+    If you are experiencing an issue not listed here, please contact our support team.
+
   navbar:
     - title: Status
       href: /
+
+    # - title: Main Site
+    #   href: https://17labs.ai
+
+    - title: Support
+      href: mailto:support@17labs.ai
+
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  theme: dark
