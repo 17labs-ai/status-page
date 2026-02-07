@@ -3,7 +3,7 @@
 
 # Repository settings
 owner: 17labs-ai          # Your GitHub org/user
-repo: status              # Your Upptime repository name
+repo: status-page         # Your Upptime repository name
 
 # Monitoring targets
 sites:
