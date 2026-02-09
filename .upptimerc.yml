@@ -19,6 +19,10 @@ sites:
     url: https://mcp-flashcards.17labs.ai/health
     maxResponseTime: 8000
 
+  - name: Flashcards — Login (Health)
+    url: https://sso.17labs.ai/auth/realms/flashcards/protocol/openid-connect/auth?client_id=flashcards-gpt-app-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid
+    maxResponseTime: 8000
+    
 # Status website
 status-website:
   cname: status.17labs.ai
