@@ -7,12 +7,20 @@ repo: status-page         # Your Upptime repository name
 
 # Monitoring targets
 sites:
+  - name: 17labs — Web
+    url: https://17labs.ai
+    maxResponseTime: 8000
+    
   - name: Dealya — Web
-    url: https://deal-ya.com
+    url: https://dealya.ai
     maxResponseTime: 8000
 
+  #- name: Dealya — API (Health)
+  #  url: https://api.dealya.ai/health
+  #  maxResponseTime: 8000
+
   - name: Flashcards — Web
-    url: https://flashcards.17labs.ai
+    url: https://deckweave.17labs.ai
     maxResponseTime: 8000
 
   - name: Flashcards — API (Health)
