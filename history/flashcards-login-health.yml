@@ -1,7 +1,7 @@
 url: https://sso.17labs.ai/auth/realms/flashcards/protocol/openid-connect/auth?client_id=flashcards-gpt-app-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid
 status: up
 code: 200
-responseTime: 371
-lastUpdated: 2026-05-31T23:55:49.736Z
+responseTime: 479
+lastUpdated: 2026-06-02T00:05:27.566Z
 startTime: 2026-02-09T18:23:34.604Z
 generator: Upptime <https://github.com/upptime/upptime>
