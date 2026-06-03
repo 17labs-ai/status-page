@@ -11,9 +11,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
     "time": 229,
-    "timeDay": 160,
-    "timeWeek": 151,
-    "timeMonth": 162,
+    "timeDay": 236,
+    "timeWeek": 171,
+    "timeMonth": 164,
     "timeYear": 229,
     "dailyMinutesDown": {
       "2026-04-01": 33
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 122,
-    "timeDay": 43,
-    "timeWeek": 37,
+    "time": 121,
+    "timeDay": 31,
+    "timeWeek": 36,
     "timeMonth": 46,
-    "timeYear": 122,
+    "timeYear": 121,
     "dailyMinutesDown": {}
   },
   {
@@ -49,9 +49,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 151,
-    "timeDay": 73,
-    "timeWeek": 82,
-    "timeMonth": 105,
+    "timeDay": 54,
+    "timeWeek": 81,
+    "timeMonth": 103,
     "timeYear": 151,
     "dailyMinutesDown": {}
   },
@@ -66,11 +66,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 495,
-    "timeDay": 387,
-    "timeWeek": 444,
+    "time": 494,
+    "timeDay": 365,
+    "timeWeek": 422,
     "timeMonth": 456,
-    "timeYear": 495,
+    "timeYear": 494,
     "dailyMinutesDown": {}
   },
   {
@@ -78,17 +78,19 @@
     "url": "https://sso.17labs.ai/auth/realms/flashcards/protocol/openid-connect/auth?client_id=flashcards-gpt-app-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid",
     "icon": "https://icons.duckduckgo.com/ip3/sso.17labs.ai.ico",
     "slug": "flashcards-login-health",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 557,
-    "timeDay": 479,
-    "timeWeek": 498,
-    "timeMonth": 489,
-    "timeYear": 557,
-    "dailyMinutesDown": {}
+    "time": 556,
+    "timeDay": 473,
+    "timeWeek": 465,
+    "timeMonth": 490,
+    "timeYear": 556,
+    "dailyMinutesDown": {
+      "2026-06-03": 0
+    }
   }
 ]
