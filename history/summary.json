@@ -4,19 +4,20 @@
     "url": "https://17labs.ai",
     "icon": "https://icons.duckduckgo.com/ip3/17labs.ai.ico",
     "slug": "17labs-web",
-    "status": "up",
-    "uptime": "99.97%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.97%",
+    "status": "down",
+    "uptime": "99.96%",
+    "uptimeDay": "99.15%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.96%",
     "time": 213,
     "timeDay": 108,
     "timeWeek": 145,
     "timeMonth": 148,
     "timeYear": 213,
     "dailyMinutesDown": {
-      "2026-04-01": 33
+      "2026-04-01": 33,
+      "2026-06-18": 12
     }
   },
   {
@@ -42,18 +43,20 @@
     "url": "https://deckweave.17labs.ai",
     "icon": "https://icons.duckduckgo.com/ip3/deckweave.17labs.ai.ico",
     "slug": "flashcards-web",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.72%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
-    "time": 142,
-    "timeDay": 47,
-    "timeWeek": 80,
-    "timeMonth": 84,
-    "timeYear": 142,
-    "dailyMinutesDown": {}
+    "time": 320,
+    "timeDay": 12155,
+    "timeWeek": 3103,
+    "timeMonth": 840,
+    "timeYear": 320,
+    "dailyMinutesDown": {
+      "2026-06-18": 4
+    }
   },
   {
     "name": "Flashcards — API (Health)",
