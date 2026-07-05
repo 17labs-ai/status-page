@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/17labs.ai.ico",
     "slug": "17labs-web",
     "status": "up",
-    "uptime": "99.84%",
+    "uptime": "99.85%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.60%",
-    "uptimeYear": "99.84%",
-    "time": 210,
-    "timeDay": 121,
+    "uptimeYear": "99.85%",
+    "time": 209,
+    "timeDay": 95,
     "timeWeek": 137,
     "timeMonth": 175,
-    "timeYear": 210,
+    "timeYear": 209,
     "dailyMinutesDown": {
       "2026-04-01": 33,
       "2026-06-18": 176
@@ -32,9 +32,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 106,
-    "timeDay": 43,
+    "timeDay": 38,
     "timeWeek": 52,
-    "timeMonth": 48,
+    "timeMonth": 49,
     "timeYear": 106,
     "dailyMinutesDown": {}
   },
@@ -49,11 +49,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.62%",
     "uptimeYear": "99.92%",
-    "time": 294,
-    "timeDay": 71,
-    "timeWeek": 106,
+    "time": 292,
+    "timeDay": 57,
+    "timeWeek": 102,
     "timeMonth": 838,
-    "timeYear": 294,
+    "timeYear": 292,
     "dailyMinutesDown": {
       "2026-06-18": 168
     }
@@ -69,11 +69,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 475,
-    "timeDay": 337,
-    "timeWeek": 388,
-    "timeMonth": 403,
-    "timeYear": 475,
+    "time": 474,
+    "timeDay": 308,
+    "timeWeek": 385,
+    "timeMonth": 401,
+    "timeYear": 474,
     "dailyMinutesDown": {}
   },
   {
@@ -87,11 +87,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.86%",
-    "time": 535,
-    "timeDay": 392,
-    "timeWeek": 476,
-    "timeMonth": 459,
-    "timeYear": 535,
+    "time": 534,
+    "timeDay": 385,
+    "timeWeek": 473,
+    "timeMonth": 457,
+    "timeYear": 534,
     "dailyMinutesDown": {
       "2026-06-03": 286
     }
