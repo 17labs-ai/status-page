@@ -7,53 +7,39 @@ repo: status-page         # Your Upptime repository name
 
 # Monitoring targets
 sites:
-  - name: 17labs — Web
+  - name: 17labs — Landing
     url: https://17labs.ai
     maxResponseTime: 8000
+
+  - name: 17labs — Login
+    url: https://sso.17labs.ai
+    maxResponseTime: 8000
+
+  - name: CCAR-F Academy — Landing
+    url: https://ccar-f.17labs.ai
+    maxResponseTime: 8000
     
-  - name: Dealya — Web
+  - name: Dealya — Landing
     url: https://dealya.ai
     maxResponseTime: 8000
 
-  #- name: Dealya — API (Health)
-  #  url: https://api.dealya.ai/health
-  #  maxResponseTime: 8000
-
-  - name: PandaFind — Web
+  - name: PandaFind — Landing
     url: https://pandafind.app
     maxResponseTime: 8000
 
-  # 17labs.ai only 302s here, and a redirect alone counts as up — so the landing
-  # needs its own check or an outage of it stays invisible on the status page.
-
-  - name: PandaFind — MCP
-    url: https://api.pandafind.app/mcp
-    method: POST
-    headers:
-      - "Content-Type: application/json"
-      - "Accept: application/json, text/event-stream"
-    # The server is a stateless transport, so a repeated initialize leaves nothing behind.
-    # /health, /ready and /status are not reachable publicly; this is the real product surface.
-    body: '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"upptime","version":"1"}}}'
-    maxResponseTime: 8000
-
-  - name: TaskNotify — Web
+  - name: TaskNotify — Landing
     url: https://tasknotify.app
     maxResponseTime: 8000
 
-  - name: TaskNotify — API (Health)
-    url: https://api.tasknotify.app/health
+  - name: TaskNotify — Login
+    url: https://sso.17labs.ai/auth/realms/tasknotify/protocol/openid-connect/auth?client_id=tasknotify-gpt-app-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid
     maxResponseTime: 8000
 
-  - name: Flashcards — Web
+  - name: Flashcards — Landing
     url: https://deckweave.17labs.ai
     maxResponseTime: 8000
 
-  - name: Flashcards — API (Health)
-    url: https://mcp-flashcards.17labs.ai/health
-    maxResponseTime: 8000
-
-  - name: Flashcards — Login (Health)
+  - name: Flashcards — Login
     url: https://sso.17labs.ai/auth/realms/flashcards/protocol/openid-connect/auth?client_id=flashcards-gpt-app-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid
     maxResponseTime: 8000
     
