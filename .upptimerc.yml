@@ -19,6 +19,32 @@ sites:
   #  url: https://api.dealya.ai/health
   #  maxResponseTime: 8000
 
+    - name: PandaFind — Web
+    url: https://pandafind.app
+    maxResponseTime: 8000
+
+  # 17labs.ai only 302s here, and a redirect alone counts as up — so the landing
+  # needs its own check or an outage of it stays invisible on the status page.
+
+  - name: PandaFind — MCP
+    url: https://api.pandafind.app/mcp
+    method: POST
+    headers:
+      - "Content-Type: application/json"
+      - "Accept: application/json, text/event-stream"
+    # The server is a stateless transport, so a repeated initialize leaves nothing behind.
+    # /health, /ready and /status are not reachable publicly; this is the real product surface.
+    body: '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"upptime","version":"1"}}}'
+    maxResponseTime: 8000
+
+  - name: TaskNotify — Web
+    url: https://tasknotify.app
+    maxResponseTime: 8000
+
+  - name: TaskNotify — API (Health)
+    url: https://api.tasknotify.app/health
+    maxResponseTime: 8000
+
   - name: Flashcards — Web
     url: https://deckweave.17labs.ai
     maxResponseTime: 8000
