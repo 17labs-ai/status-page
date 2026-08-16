@@ -11,10 +11,6 @@ sites:
     url: https://17labs.ai
     maxResponseTime: 8000
 
-  - name: 17labs — Login
-    url: https://sso.17labs.ai
-    maxResponseTime: 8000
-
   - name: CCAR-F Academy — Landing
     url: https://ccar-f.17labs.ai
     maxResponseTime: 8000
