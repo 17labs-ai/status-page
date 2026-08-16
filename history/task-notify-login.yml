@@ -1,0 +1,7 @@
+url: https://sso.17labs.ai/auth/realms/tasknotify/protocol/openid-connect/auth?client_id=tasknotify-gpt-app-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid
+status: up
+code: 200
+responseTime: 269
+lastUpdated: 2026-08-16T20:10:33.399Z
+startTime: 2026-08-16T20:10:33.129Z
+generator: Upptime <https://github.com/upptime/upptime>
