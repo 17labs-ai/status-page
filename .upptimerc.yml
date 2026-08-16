@@ -19,7 +19,7 @@ sites:
   #  url: https://api.dealya.ai/health
   #  maxResponseTime: 8000
 
-    - name: PandaFind — Web
+  - name: PandaFind — Web
     url: https://pandafind.app
     maxResponseTime: 8000
 
