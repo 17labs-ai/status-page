@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 422,
-    "timeDay": 326,
-    "timeWeek": 329,
-    "timeMonth": 480,
-    "timeYear": 422,
+    "time": 424,
+    "timeDay": 406,
+    "timeWeek": 281,
+    "timeMonth": 422,
+    "timeYear": 424,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 212,
-    "timeDay": 129,
-    "timeWeek": 202,
-    "timeMonth": 161,
-    "timeYear": 212,
+    "time": 214,
+    "timeDay": 221,
+    "timeWeek": 191,
+    "timeMonth": 165,
+    "timeYear": 214,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.92%",
-    "time": 257,
-    "timeDay": 142,
-    "timeWeek": 146,
-    "timeMonth": 254,
-    "timeYear": 257,
+    "time": 256,
+    "timeDay": 171,
+    "timeWeek": 156,
+    "timeMonth": 257,
+    "timeYear": 256,
     "dailyMinutesDown": {
       "2026-02-05": 41
     }
@@ -67,8 +67,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 91,
-    "timeDay": 85,
-    "timeWeek": 81,
+    "timeDay": 91,
+    "timeWeek": 77,
     "timeMonth": 100,
     "timeYear": 91,
     "dailyMinutesDown": {}
@@ -84,11 +84,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 171,
-    "timeDay": 169,
-    "timeWeek": 143,
-    "timeMonth": 177,
-    "timeYear": 171,
+    "time": 174,
+    "timeDay": 226,
+    "timeWeek": 161,
+    "timeMonth": 180,
+    "timeYear": 174,
     "dailyMinutesDown": {}
   },
   {
@@ -96,18 +96,20 @@
     "url": "https://sso.17labs.ai/auth/realms/tasknotify/protocol/openid-connect/auth?client_id=tasknotify-gpt-app-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid",
     "icon": "https://icons.duckduckgo.com/ip3/sso.17labs.ai.ico",
     "slug": "task-notify-login",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 570,
-    "timeDay": 477,
-    "timeWeek": 493,
-    "timeMonth": 585,
-    "timeYear": 570,
-    "dailyMinutesDown": {}
+    "time": 561,
+    "timeDay": 350,
+    "timeWeek": 438,
+    "timeMonth": 580,
+    "timeYear": 561,
+    "dailyMinutesDown": {
+      "2026-09-23": 0
+    }
   },
   {
     "name": "Flashcards — Landing",
@@ -121,9 +123,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 196,
-    "timeDay": 145,
-    "timeWeek": 170,
-    "timeMonth": 229,
+    "timeDay": 167,
+    "timeWeek": 163,
+    "timeMonth": 233,
     "timeYear": 196,
     "dailyMinutesDown": {}
   },
@@ -132,17 +134,19 @@
     "url": "https://sso.17labs.ai/auth/realms/flashcards/protocol/openid-connect/auth?client_id=flashcards-gpt-app-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid",
     "icon": "https://icons.duckduckgo.com/ip3/sso.17labs.ai.ico",
     "slug": "flashcards-login",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 427,
-    "timeDay": 254,
-    "timeWeek": 358,
-    "timeMonth": 433,
+    "timeDay": 348,
+    "timeWeek": 326,
+    "timeMonth": 436,
     "timeYear": 427,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-09-23": 0
+    }
   }
 ]
