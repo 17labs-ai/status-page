@@ -13,7 +13,7 @@
     "time": 357,
     "timeDay": 353,
     "timeWeek": 328,
-    "timeMonth": 318,
+    "timeMonth": 320,
     "timeYear": 357,
     "dailyMinutesDown": {}
   },
@@ -31,7 +31,7 @@
     "time": 242,
     "timeDay": 110,
     "timeWeek": 208,
-    "timeMonth": 324,
+    "timeMonth": 329,
     "timeYear": 242,
     "dailyMinutesDown": {}
   },
@@ -49,7 +49,7 @@
     "time": 242,
     "timeDay": 143,
     "timeWeek": 145,
-    "timeMonth": 279,
+    "timeMonth": 281,
     "timeYear": 242,
     "dailyMinutesDown": {
       "2026-02-05": 41
@@ -69,7 +69,7 @@
     "time": 92,
     "timeDay": 65,
     "timeWeek": 90,
-    "timeMonth": 107,
+    "timeMonth": 108,
     "timeYear": 92,
     "dailyMinutesDown": {}
   },
@@ -87,7 +87,7 @@
     "time": 171,
     "timeDay": 216,
     "timeWeek": 166,
-    "timeMonth": 180,
+    "timeMonth": 182,
     "timeYear": 171,
     "dailyMinutesDown": {}
   },
@@ -105,7 +105,7 @@
     "time": 715,
     "timeDay": 1770,
     "timeWeek": 1146,
-    "timeMonth": 974,
+    "timeMonth": 986,
     "timeYear": 715,
     "dailyMinutesDown": {
       "2026-09-23": 42,
@@ -117,18 +117,20 @@
     "url": "https://deckweave.17labs.ai",
     "icon": "https://icons.duckduckgo.com/ip3/deckweave.17labs.ai.ico",
     "slug": "flashcards-landing",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 175,
-    "timeDay": 112,
-    "timeWeek": 134,
-    "timeMonth": 157,
-    "timeYear": 175,
-    "dailyMinutesDown": {}
+    "time": 368,
+    "timeDay": 9718,
+    "timeWeek": 2533,
+    "timeMonth": 776,
+    "timeYear": 368,
+    "dailyMinutesDown": {
+      "2026-11-10": 0
+    }
   },
   {
     "name": "Flashcards — Login",
@@ -144,7 +146,7 @@
     "time": 437,
     "timeDay": 335,
     "timeWeek": 444,
-    "timeMonth": 467,
+    "timeMonth": 469,
     "timeYear": 437,
     "dailyMinutesDown": {
       "2026-09-23": 42,
