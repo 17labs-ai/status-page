@@ -14,13 +14,13 @@ sites:
   - name: CCAR-F Academy — Landing
     url: https://ccar-f.17labs.ai
     maxResponseTime: 8000
-    
-  - name: Dealya — Landing
-    url: https://dealya.ai
-    maxResponseTime: 8000
 
   - name: PandaFind — Landing
     url: https://pandafind.app
+    maxResponseTime: 8000  
+    
+  - name: PandaCoupons — Landing
+    url: https://pandacoupons.app
     maxResponseTime: 8000
 
   - name: TaskNotify — Landing
@@ -31,12 +31,12 @@ sites:
     url: https://sso.17labs.ai/auth/realms/tasknotify/protocol/openid-connect/auth?client_id=tasknotify-gpt-app-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid
     maxResponseTime: 8000
 
-  - name: Flashcards — Landing
-    url: https://deckweave.17labs.ai
+  - name: AgentWake — Landing
+    url: https://agentwake.ai
     maxResponseTime: 8000
 
-  - name: Flashcards — Login
-    url: https://sso.17labs.ai/auth/realms/flashcards/protocol/openid-connect/auth?client_id=flashcards-gpt-app-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid
+  - name: AgentWake — Login
+    url: https://sso.17labs.ai/auth/realms/agentwake/protocol/openid-connect/auth?client_id=agentwake-chatgpt-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid
     maxResponseTime: 8000
     
 # Status website
