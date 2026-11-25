@@ -12,7 +12,7 @@
     "uptimeYear": "100.00%",
     "time": 340,
     "timeDay": 247,
-    "timeWeek": 273,
+    "timeWeek": 267,
     "timeMonth": 281,
     "timeYear": 340,
     "dailyMinutesDown": {}
@@ -30,8 +30,8 @@
     "uptimeYear": "100.00%",
     "time": 225,
     "timeDay": 104,
-    "timeWeek": 133,
-    "timeMonth": 175,
+    "timeWeek": 125,
+    "timeMonth": 179,
     "timeYear": 225,
     "dailyMinutesDown": {}
   },
@@ -48,8 +48,8 @@
     "uptimeYear": "100.00%",
     "time": 90,
     "timeDay": 99,
-    "timeWeek": 78,
-    "timeMonth": 101,
+    "timeWeek": 76,
+    "timeMonth": 103,
     "timeYear": 90,
     "dailyMinutesDown": {}
   },
@@ -66,7 +66,7 @@
     "uptimeYear": "100.00%",
     "time": 118,
     "timeDay": 142,
-    "timeWeek": 131,
+    "timeWeek": 126,
     "timeMonth": 118,
     "timeYear": 118,
     "dailyMinutesDown": {}
@@ -84,8 +84,8 @@
     "uptimeYear": "100.00%",
     "time": 165,
     "timeDay": 111,
-    "timeWeek": 135,
-    "timeMonth": 156,
+    "timeWeek": 124,
+    "timeMonth": 158,
     "timeYear": 165,
     "dailyMinutesDown": {}
   },
@@ -94,20 +94,21 @@
     "url": "https://sso.17labs.ai/auth/realms/tasknotify/protocol/openid-connect/auth?client_id=tasknotify-gpt-app-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid",
     "icon": "https://icons.duckduckgo.com/ip3/sso.17labs.ai.ico",
     "slug": "task-notify-login",
-    "status": "up",
+    "status": "degraded",
     "uptime": "99.86%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.86%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.86%",
-    "time": 768,
-    "timeDay": 611,
-    "timeWeek": 1453,
-    "timeMonth": 966,
-    "timeYear": 768,
+    "time": 1049,
+    "timeDay": 15574,
+    "timeWeek": 5714,
+    "timeMonth": 1910,
+    "timeYear": 1049,
     "dailyMinutesDown": {
       "2026-09-23": 42,
-      "2026-10-05": 158
+      "2026-10-05": 158,
+      "2026-11-25": 2
     }
   },
   {
@@ -123,7 +124,7 @@
     "uptimeYear": "100.00%",
     "time": 156,
     "timeDay": 209,
-    "timeWeek": 175,
+    "timeWeek": 166,
     "timeMonth": 156,
     "timeYear": 156,
     "dailyMinutesDown": {}
@@ -133,17 +134,19 @@
     "url": "https://sso.17labs.ai/auth/realms/agentwake/protocol/openid-connect/auth?client_id=agentwake-chatgpt-client&redirect_uri=https%3A%2F%2Fchatgpt.com%2Fconnector_platform_oauth_redirect&response_type=code&scope=openid",
     "icon": "https://icons.duckduckgo.com/ip3/sso.17labs.ai.ico",
     "slug": "agent-wake-login",
-    "status": "up",
+    "status": "degraded",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 677,
-    "timeDay": 552,
-    "timeWeek": 809,
-    "timeMonth": 677,
-    "timeYear": 677,
-    "dailyMinutesDown": {}
+    "time": 3187,
+    "timeDay": 15674,
+    "timeWeek": 5163,
+    "timeMonth": 3187,
+    "timeYear": 3187,
+    "dailyMinutesDown": {
+      "2026-11-25": 0
+    }
   }
 ]
